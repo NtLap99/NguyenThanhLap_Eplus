@@ -7,7 +7,7 @@ type TableRowSelection<T extends object = object> = TableProps<T>['rowSelection'
 
 interface ITableProps {
   data: ICourse[];
-  columns: TableColumnsType;
+  columns: any;
 }
 
 export const Table: React.FC<ITableProps> = ({ data, columns }) => {
@@ -23,5 +23,5 @@ export const Table: React.FC<ITableProps> = ({ data, columns }) => {
   }, [data])
 
   // eslint-disable-next-line react/jsx-pascal-case
-  return <_Table rowSelection={rowSelection} columns={columns} dataSource={dataSource} />;
+  return <_Table scroll={{ x: 1500, y: 700 }} pagination={{ position: ['topLeft'] }} rowSelection={rowSelection} columns={columns} dataSource={dataSource} />;
 };

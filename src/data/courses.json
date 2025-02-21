@@ -2,43 +2,1830 @@
   {
     "id": 1,
     "user": {
-      "id": 1,
-      "name": "Username 1",
-      "avatar": ""
+      "id": 4,
+      "name": "Username 10",
+      "avatar": "person-1.jpeg"
     },
-    "name": "Test",
+    "name": "Khóa học 1",
     "method": "Bắt buộc",
     "lecturer": {
-      "id": 1,
-      "name": "Giảng viên 1",
-      "avatar": ""
+      "id": 2,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
     },
-    "fromDate": "11/08/2023",
-    "toDate": "11/08/2023",
+    "fromDate": "02/04/2025",
+    "toDate": "22/11/2025",
     "status": "Đang thực hiện",
-    "studentCount": 3,
-    "fine": 0,
-    "createdDate": "10/08/2023"
+    "studentCount": 1,
+    "fine": 200,
+    "createdDate": "15/07/2023"
   },
   {
     "id": 2,
     "user": {
-      "id": 2,
-      "name": "Username 2",
-      "avatar": ""
+      "id": 9,
+      "name": "Username 7",
+      "avatar": "person-1.jpeg"
     },
-    "name": "HỆ THỐNG ĐẶT HÀNG ONLINE",
+    "name": "EXCEL/GOOGLE SHEET - XỬ LÝ DỮ LIỆU, LẬP BÁO CÁO VÀ PHÂN TÍCH CĂN BẢN",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "12/10/2023",
+    "toDate": "14/02/2024",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 200,
+    "createdDate": "13/09/2023"
+  },
+  {
+    "id": 3,
+    "user": {
+      "id": 8,
+      "name": "Username 4",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "SẢN XUẤT & DẪN CHƯƠNG TRÌNH PHÁT THANH",
     "method": "Đăng ký",
     "lecturer": {
       "id": 1,
       "name": "Giảng viên 1",
-      "avatar": ""
+      "avatar": "person-2.jpeg"
     },
-    "fromDate": "11/08/2023",
-    "toDate": "11/08/2023",
+    "fromDate": "28/02/2024",
+    "toDate": "02/12/2024",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 100,
+    "createdDate": "19/02/2024"
+  },
+  {
+    "id": 4,
+    "user": {
+      "id": 5,
+      "name": "Username 6",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 4",
+    "type": "Chuyên môn",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 4",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "27/04/2025",
+    "toDate": "11/09/2025",
     "status": "Hoàn thành",
     "studentCount": 3,
     "fine": 0,
-    "createdDate": "10/08/2023"
+    "createdDate": "25/01/2025"
+  },
+  {
+    "id": 5,
+    "user": {
+      "id": 7,
+      "name": "Username 8",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 5",
+    "type": "Đào tạo hội nhập",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 5",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "09/01/2024",
+    "toDate": "21/04/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 100,
+    "createdDate": "26/08/2023"
+  },
+  {
+    "id": 6,
+    "user": {
+      "id": 3,
+      "name": "Username 2",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 6",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "07/03/2025",
+    "toDate": "14/11/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 5,
+    "fine": 100,
+    "createdDate": "07/12/2023"
+  },
+  {
+    "id": 7,
+    "user": {
+      "id": 7,
+      "name": "Username 6",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 7",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 1",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "14/03/2023",
+    "toDate": "08/05/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 1,
+    "fine": 100,
+    "createdDate": "03/01/2023"
+  },
+  {
+    "id": 8,
+    "user": {
+      "id": 2,
+      "name": "Username 7",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 8",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 2",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "18/08/2024",
+    "toDate": "01/03/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 2,
+    "fine": 100,
+    "createdDate": "18/08/2023"
+  },
+  {
+    "id": 9,
+    "user": {
+      "id": 3,
+      "name": "Username 2",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 9",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "03/09/2025",
+    "toDate": "15/09/2025",
+    "status": "Hoàn thành",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "27/07/2025"
+  },
+  {
+    "id": 10,
+    "user": {
+      "id": 10,
+      "name": "Username 6",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 10",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 3",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "09/12/2024",
+    "toDate": "16/08/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "17/11/2023"
+  },
+  {
+    "id": 11,
+    "user": {
+      "id": 2,
+      "name": "Username 8",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 11",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "22/08/2023",
+    "toDate": "16/02/2024",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "04/08/2023"
+  },
+  {
+    "id": 12,
+    "user": {
+      "id": 9,
+      "name": "Username 8",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 12",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 2",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "17/06/2025",
+    "toDate": "31/12/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 1,
+    "fine": 100,
+    "createdDate": "19/02/2024"
+  },
+  {
+    "id": 13,
+    "user": {
+      "id": 8,
+      "name": "Username 8",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 13",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "26/08/2023",
+    "toDate": "29/05/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 4,
+    "fine": 0,
+    "createdDate": "28/07/2023"
+  },
+  {
+    "id": 14,
+    "user": {
+      "id": 9,
+      "name": "Username 6",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 14",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "23/01/2025",
+    "toDate": "14/02/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 100,
+    "createdDate": "17/10/2023"
+  },
+  {
+    "id": 15,
+    "user": {
+      "id": 5,
+      "name": "Username 5",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 15",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 3",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "21/05/2024",
+    "toDate": "24/05/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 4,
+    "fine": 0,
+    "createdDate": "06/05/2024"
+  },
+  {
+    "id": 16,
+    "user": {
+      "id": 7,
+      "name": "Username 7",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 16",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 2",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "10/10/2024",
+    "toDate": "30/12/2024",
+    "status": "Chưa bắt đầu",
+    "studentCount": 3,
+    "fine": 0,
+    "createdDate": "29/04/2024"
+  },
+  {
+    "id": 17,
+    "user": {
+      "id": 4,
+      "name": "Username 4",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 17",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 3",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "30/09/2024",
+    "toDate": "29/03/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 300,
+    "createdDate": "16/04/2023"
+  },
+  {
+    "id": 18,
+    "user": {
+      "id": 10,
+      "name": "Username 10",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 18",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 5",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "10/02/2023",
+    "toDate": "09/04/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 300,
+    "createdDate": "07/01/2023"
+  },
+  {
+    "id": 19,
+    "user": {
+      "id": 1,
+      "name": "Username 6",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 19",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 5",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "09/05/2024",
+    "toDate": "15/06/2024",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 300,
+    "createdDate": "13/03/2024"
+  },
+  {
+    "id": 20,
+    "user": {
+      "id": 2,
+      "name": "Username 10",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 20",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 2",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "13/06/2025",
+    "toDate": "26/12/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 300,
+    "createdDate": "24/11/2024"
+  },
+  {
+    "id": 21,
+    "user": {
+      "id": 10,
+      "name": "Username 3",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 21",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 2",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "17/10/2025",
+    "toDate": "18/10/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 4,
+    "fine": 100,
+    "createdDate": "15/06/2024"
+  },
+  {
+    "id": 22,
+    "user": {
+      "id": 3,
+      "name": "Username 8",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 22",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 1",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "11/08/2025",
+    "toDate": "13/11/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 4,
+    "fine": 200,
+    "createdDate": "27/09/2023"
+  },
+  {
+    "id": 23,
+    "user": {
+      "id": 3,
+      "name": "Username 6",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 23",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 3",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "21/10/2025",
+    "toDate": "13/11/2025",
+    "status": "Hoàn thành",
+    "studentCount": 2,
+    "fine": 300,
+    "createdDate": "29/04/2025"
+  },
+  {
+    "id": 24,
+    "user": {
+      "id": 6,
+      "name": "Username 2",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 24",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 3",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "26/10/2023",
+    "toDate": "18/04/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "11/03/2023"
+  },
+  {
+    "id": 25,
+    "user": {
+      "id": 7,
+      "name": "Username 9",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 25",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 3",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "15/03/2024",
+    "toDate": "13/05/2024",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 100,
+    "createdDate": "13/02/2024"
+  },
+  {
+    "id": 26,
+    "user": {
+      "id": 6,
+      "name": "Username 9",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 26",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 1",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "03/04/2023",
+    "toDate": "09/04/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 0,
+    "createdDate": "01/03/2023"
+  },
+  {
+    "id": 27,
+    "user": {
+      "id": 6,
+      "name": "Username 2",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 27",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "11/01/2024",
+    "toDate": "14/12/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 4,
+    "fine": 100,
+    "createdDate": "22/03/2023"
+  },
+  {
+    "id": 28,
+    "user": {
+      "id": 6,
+      "name": "Username 5",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 28",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 5",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "29/07/2024",
+    "toDate": "09/01/2025",
+    "status": "Hoàn thành",
+    "studentCount": 5,
+    "fine": 100,
+    "createdDate": "26/01/2023"
+  },
+  {
+    "id": 29,
+    "user": {
+      "id": 9,
+      "name": "Username 6",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 29",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 5",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "02/09/2025",
+    "toDate": "28/10/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 1,
+    "fine": 0,
+    "createdDate": "14/10/2024"
+  },
+  {
+    "id": 30,
+    "user": {
+      "id": 5,
+      "name": "Username 7",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 30",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 2",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "23/11/2024",
+    "toDate": "05/06/2025",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 300,
+    "createdDate": "08/11/2024"
+  },
+  {
+    "id": 31,
+    "user": {
+      "id": 1,
+      "name": "Username 9",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 31",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 4",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "06/06/2024",
+    "toDate": "23/07/2024",
+    "status": "Chưa bắt đầu",
+    "studentCount": 4,
+    "fine": 100,
+    "createdDate": "16/06/2023"
+  },
+  {
+    "id": 32,
+    "user": {
+      "id": 2,
+      "name": "Username 9",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 32",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "30/04/2024",
+    "toDate": "20/02/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 1,
+    "fine": 300,
+    "createdDate": "22/05/2023"
+  },
+  {
+    "id": 33,
+    "user": {
+      "id": 4,
+      "name": "Username 4",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 33",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 3",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "06/06/2024",
+    "toDate": "24/06/2024",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 0,
+    "createdDate": "21/02/2024"
+  },
+  {
+    "id": 34,
+    "user": {
+      "id": 1,
+      "name": "Username 7",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 34",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "03/11/2023",
+    "toDate": "17/03/2024",
+    "status": "Chưa bắt đầu",
+    "studentCount": 3,
+    "fine": 200,
+    "createdDate": "10/10/2023"
+  },
+  {
+    "id": 35,
+    "user": {
+      "id": 10,
+      "name": "Username 8",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 35",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "20/10/2024",
+    "toDate": "23/12/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 1,
+    "fine": 200,
+    "createdDate": "01/10/2024"
+  },
+  {
+    "id": 36,
+    "user": {
+      "id": 10,
+      "name": "Username 3",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 36",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 4",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "21/11/2024",
+    "toDate": "27/02/2025",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 100,
+    "createdDate": "29/08/2023"
+  },
+  {
+    "id": 37,
+    "user": {
+      "id": 8,
+      "name": "Username 6",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 37",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "03/12/2025",
+    "toDate": "26/12/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 1,
+    "fine": 200,
+    "createdDate": "19/09/2025"
+  },
+  {
+    "id": 38,
+    "user": {
+      "id": 6,
+      "name": "Username 6",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 38",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 4",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "22/06/2023",
+    "toDate": "12/10/2023",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 100,
+    "createdDate": "05/04/2023"
+  },
+  {
+    "id": 39,
+    "user": {
+      "id": 7,
+      "name": "Username 4",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 39",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 1",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "10/05/2024",
+    "toDate": "12/02/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "06/06/2023"
+  },
+  {
+    "id": 40,
+    "user": {
+      "id": 10,
+      "name": "Username 1",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 40",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 1",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "05/07/2024",
+    "toDate": "12/10/2025",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 100,
+    "createdDate": "16/12/2023"
+  },
+  {
+    "id": 41,
+    "user": {
+      "id": 5,
+      "name": "Username 4",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 41",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 2",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "18/04/2023",
+    "toDate": "09/05/2023",
+    "status": "Chưa bắt đầu",
+    "studentCount": 2,
+    "fine": 0,
+    "createdDate": "07/02/2023"
+  },
+  {
+    "id": 42,
+    "user": {
+      "id": 2,
+      "name": "Username 3",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 42",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "14/06/2023",
+    "toDate": "26/07/2024",
+    "status": "Hoàn thành",
+    "studentCount": 5,
+    "fine": 100,
+    "createdDate": "25/04/2023"
+  },
+  {
+    "id": 43,
+    "user": {
+      "id": 3,
+      "name": "Username 9",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 43",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "12/06/2023",
+    "toDate": "16/04/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 200,
+    "createdDate": "21/04/2023"
+  },
+  {
+    "id": 44,
+    "user": {
+      "id": 8,
+      "name": "Username 3",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 44",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 1",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "27/12/2023",
+    "toDate": "29/11/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 3,
+    "fine": 200,
+    "createdDate": "13/02/2023"
+  },
+  {
+    "id": 45,
+    "user": {
+      "id": 5,
+      "name": "Username 9",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 45",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 2",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "25/03/2024",
+    "toDate": "17/07/2024",
+    "status": "Chưa bắt đầu",
+    "studentCount": 2,
+    "fine": 300,
+    "createdDate": "05/06/2023"
+  },
+  {
+    "id": 46,
+    "user": {
+      "id": 10,
+      "name": "Username 8",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 46",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "07/07/2023",
+    "toDate": "25/04/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 100,
+    "createdDate": "10/06/2023"
+  },
+  {
+    "id": 47,
+    "user": {
+      "id": 8,
+      "name": "Username 7",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 47",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 3",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "12/02/2025",
+    "toDate": "16/04/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 5,
+    "fine": 300,
+    "createdDate": "26/08/2024"
+  },
+  {
+    "id": 48,
+    "user": {
+      "id": 8,
+      "name": "Username 8",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 48",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 3",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "16/11/2024",
+    "toDate": "30/07/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 4,
+    "fine": 0,
+    "createdDate": "18/02/2023"
+  },
+  {
+    "id": 49,
+    "user": {
+      "id": 7,
+      "name": "Username 4",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 49",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "25/01/2025",
+    "toDate": "25/12/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 3,
+    "fine": 200,
+    "createdDate": "15/11/2024"
+  },
+  {
+    "id": 50,
+    "user": {
+      "id": 8,
+      "name": "Username 4",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 50",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 2",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "14/07/2024",
+    "toDate": "14/09/2024",
+    "status": "Hoàn thành",
+    "studentCount": 5,
+    "fine": 200,
+    "createdDate": "09/05/2023"
+  },
+  {
+    "id": 51,
+    "user": {
+      "id": 10,
+      "name": "Username 9",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 51",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 3",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "16/03/2023",
+    "toDate": "04/12/2024",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 300,
+    "createdDate": "10/01/2023"
+  },
+  {
+    "id": 52,
+    "user": {
+      "id": 7,
+      "name": "Username 3",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 52",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 5",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "29/02/2024",
+    "toDate": "03/11/2025",
+    "status": "Hoàn thành",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "13/09/2023"
+  },
+  {
+    "id": 53,
+    "user": {
+      "id": 10,
+      "name": "Username 9",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 53",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 3",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "24/09/2024",
+    "toDate": "18/02/2025",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 0,
+    "createdDate": "02/02/2023"
+  },
+  {
+    "id": 54,
+    "user": {
+      "id": 2,
+      "name": "Username 9",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 54",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 2",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "19/01/2025",
+    "toDate": "14/10/2025",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 0,
+    "createdDate": "30/08/2023"
+  },
+  {
+    "id": 55,
+    "user": {
+      "id": 2,
+      "name": "Username 6",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 55",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 3",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "28/06/2023",
+    "toDate": "02/07/2024",
+    "status": "Đang thực hiện",
+    "studentCount": 4,
+    "fine": 100,
+    "createdDate": "18/03/2023"
+  },
+  {
+    "id": 56,
+    "user": {
+      "id": 10,
+      "name": "Username 6",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 56",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 4",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "22/02/2023",
+    "toDate": "08/07/2024",
+    "status": "Hoàn thành",
+    "studentCount": 2,
+    "fine": 0,
+    "createdDate": "17/02/2023"
+  },
+  {
+    "id": 57,
+    "user": {
+      "id": 10,
+      "name": "Username 6",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 57",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 2",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "25/09/2025",
+    "toDate": "18/10/2025",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 100,
+    "createdDate": "30/05/2023"
+  },
+  {
+    "id": 58,
+    "user": {
+      "id": 6,
+      "name": "Username 7",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 58",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "21/06/2023",
+    "toDate": "18/10/2023",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 0,
+    "createdDate": "22/03/2023"
+  },
+  {
+    "id": 59,
+    "user": {
+      "id": 7,
+      "name": "Username 1",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 59",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "02/10/2025",
+    "toDate": "07/12/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 300,
+    "createdDate": "27/02/2024"
+  },
+  {
+    "id": 60,
+    "user": {
+      "id": 6,
+      "name": "Username 4",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 60",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "14/06/2023",
+    "toDate": "11/04/2024",
+    "status": "Chưa bắt đầu",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "19/04/2023"
+  },
+  {
+    "id": 61,
+    "user": {
+      "id": 10,
+      "name": "Username 5",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 61",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 1",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "13/07/2023",
+    "toDate": "11/12/2025",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 0,
+    "createdDate": "06/03/2023"
+  },
+  {
+    "id": 62,
+    "user": {
+      "id": 6,
+      "name": "Username 6",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 62",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 5",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "30/08/2023",
+    "toDate": "13/01/2024",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 100,
+    "createdDate": "17/01/2023"
+  },
+  {
+    "id": 63,
+    "user": {
+      "id": 5,
+      "name": "Username 5",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 63",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 5",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "08/05/2023",
+    "toDate": "17/08/2023",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 300,
+    "createdDate": "07/02/2023"
+  },
+  {
+    "id": 64,
+    "user": {
+      "id": 5,
+      "name": "Username 4",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 64",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 5",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "07/06/2025",
+    "toDate": "07/07/2025",
+    "status": "Hoàn thành",
+    "studentCount": 4,
+    "fine": 100,
+    "createdDate": "20/11/2024"
+  },
+  {
+    "id": 65,
+    "user": {
+      "id": 2,
+      "name": "Username 10",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 65",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 5",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "07/03/2025",
+    "toDate": "23/03/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 200,
+    "createdDate": "03/01/2024"
+  },
+  {
+    "id": 66,
+    "user": {
+      "id": 1,
+      "name": "Username 6",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 66",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "03/02/2024",
+    "toDate": "22/08/2024",
+    "status": "Đang thực hiện",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "31/07/2023"
+  },
+  {
+    "id": 67,
+    "user": {
+      "id": 3,
+      "name": "Username 8",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 67",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 5",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "25/07/2023",
+    "toDate": "08/12/2023",
+    "status": "Hoàn thành",
+    "studentCount": 2,
+    "fine": 100,
+    "createdDate": "03/07/2023"
+  },
+  {
+    "id": 68,
+    "user": {
+      "id": 10,
+      "name": "Username 8",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 68",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 3",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "28/05/2025",
+    "toDate": "31/10/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 100,
+    "createdDate": "14/05/2024"
+  },
+  {
+    "id": 69,
+    "user": {
+      "id": 4,
+      "name": "Username 4",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 69",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 5",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "26/09/2025",
+    "toDate": "30/11/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 4,
+    "fine": 300,
+    "createdDate": "10/07/2024"
+  },
+  {
+    "id": 70,
+    "user": {
+      "id": 10,
+      "name": "Username 5",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 70",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 5",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "01/04/2025",
+    "toDate": "07/05/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 1,
+    "fine": 200,
+    "createdDate": "28/05/2023"
+  },
+  {
+    "id": 71,
+    "user": {
+      "id": 6,
+      "name": "Username 1",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 71",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 4,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "02/07/2024",
+    "toDate": "06/03/2025",
+    "status": "Chưa bắt đầu",
+    "studentCount": 1,
+    "fine": 100,
+    "createdDate": "24/05/2024"
+  },
+  {
+    "id": 72,
+    "user": {
+      "id": 3,
+      "name": "Username 7",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 72",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 3",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "08/10/2025",
+    "toDate": "05/11/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 100,
+    "createdDate": "03/10/2025"
+  },
+  {
+    "id": 73,
+    "user": {
+      "id": 7,
+      "name": "Username 1",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 73",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 3",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "05/10/2024",
+    "toDate": "10/05/2025",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 100,
+    "createdDate": "18/05/2024"
+  },
+  {
+    "id": 74,
+    "user": {
+      "id": 2,
+      "name": "Username 8",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 74",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "19/04/2023",
+    "toDate": "18/07/2023",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 200,
+    "createdDate": "08/03/2023"
+  },
+  {
+    "id": 75,
+    "user": {
+      "id": 4,
+      "name": "Username 4",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 75",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 2",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "23/09/2023",
+    "toDate": "06/02/2024",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 100,
+    "createdDate": "14/04/2023"
+  },
+  {
+    "id": 76,
+    "user": {
+      "id": 7,
+      "name": "Username 7",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 76",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 5",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "13/03/2023",
+    "toDate": "20/07/2023",
+    "status": "Hoàn thành",
+    "studentCount": 4,
+    "fine": 100,
+    "createdDate": "13/01/2023"
+  },
+  {
+    "id": 77,
+    "user": {
+      "id": 7,
+      "name": "Username 9",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 77",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 1",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "31/10/2024",
+    "toDate": "21/06/2025",
+    "status": "Hoàn thành",
+    "studentCount": 2,
+    "fine": 0,
+    "createdDate": "29/05/2023"
+  },
+  {
+    "id": 78,
+    "user": {
+      "id": 4,
+      "name": "Username 4",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 78",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 5",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "11/06/2024",
+    "toDate": "06/11/2025",
+    "status": "Hoàn thành",
+    "studentCount": 2,
+    "fine": 200,
+    "createdDate": "25/04/2024"
+  },
+  {
+    "id": 79,
+    "user": {
+      "id": 6,
+      "name": "Username 4",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 79",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "05/07/2025",
+    "toDate": "27/11/2025",
+    "status": "Hoàn thành",
+    "studentCount": 5,
+    "fine": 100,
+    "createdDate": "12/06/2024"
+  },
+  {
+    "id": 80,
+    "user": {
+      "id": 8,
+      "name": "Username 5",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 80",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 4",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "21/03/2025",
+    "toDate": "27/10/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 100,
+    "createdDate": "03/03/2025"
+  },
+  {
+    "id": 81,
+    "user": {
+      "id": 10,
+      "name": "Username 3",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 81",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 2",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "08/05/2024",
+    "toDate": "06/08/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 0,
+    "createdDate": "01/01/2023"
+  },
+  {
+    "id": 82,
+    "user": {
+      "id": 2,
+      "name": "Username 1",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 82",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 3,
+      "name": "Giảng viên 3",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "12/07/2024",
+    "toDate": "08/02/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 2,
+    "fine": 300,
+    "createdDate": "22/05/2023"
+  },
+  {
+    "id": 83,
+    "user": {
+      "id": 8,
+      "name": "Username 9",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 83",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 4",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "18/03/2023",
+    "toDate": "04/04/2023",
+    "status": "Đang thực hiện",
+    "studentCount": 5,
+    "fine": 0,
+    "createdDate": "25/02/2023"
+  },
+  {
+    "id": 84,
+    "user": {
+      "id": 1,
+      "name": "Username 1",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 84",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 3",
+      "avatar": "person-1.jpeg"
+    },
+    "fromDate": "18/08/2025",
+    "toDate": "13/11/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 1,
+    "fine": 300,
+    "createdDate": "19/05/2025"
+  },
+  {
+    "id": 85,
+    "user": {
+      "id": 5,
+      "name": "Username 9",
+      "avatar": "person-1.jpeg"
+    },
+    "name": "Khóa học 85",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 2",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "12/12/2025",
+    "toDate": "28/12/2025",
+    "status": "Đang thực hiện",
+    "studentCount": 5,
+    "fine": 100,
+    "createdDate": "26/07/2025"
+  },
+  {
+    "id": 86,
+    "user": {
+      "id": 1,
+      "name": "Username 10",
+      "avatar": "person-2.jpeg"
+    },
+    "name": "Khóa học 86",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 5,
+      "name": "Giảng viên 1",
+      "avatar": "person-3.jpeg"
+    },
+    "fromDate": "08/10/2023",
+    "toDate": "08/09/2024",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 0,
+    "createdDate": "14/09/2023"
+  },
+  {
+    "id": 87,
+    "user": {
+      "id": 5,
+      "name": "Username 1",
+      "avatar": "person-3.jpeg"
+    },
+    "name": "Khóa học 87",
+    "method": "Tự do",
+    "lecturer": {
+      "id": 2,
+      "name": "Giảng viên 4",
+      "avatar": "person-2.jpeg"
+    },
+    "fromDate": "10/11/2025",
+    "toDate": "15/12/2025",
+    "status": "Hoàn thành",
+    "studentCount": 1,
+    "fine": 100,
+    "createdDate": "12/07/2024"
   }
 ]

@@ -1,0 +1,70 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Bên trái */
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-button {
+    width: 24px;
+    height: 24px;
+    border: 1px solid red;
+    border-radius: 4px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .plus-icon {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .header-title {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Ô tìm kiếm */
+  .search-input {
+    width: 200px;
+    border-radius: 6px;
+  }
+  
+  /* Bên phải */
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .header-icon {
+    font-size: 16px;
+    cursor: pointer;
+    color: #595959;
+    transition: color 0.3s;
+  }
+  
+  .header-icon:hover {
+    color: #1890ff;
+  }
+  
+  .user-avatar {
+    background-color: #fadb14;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+  

@@ -3,6 +3,10 @@
   --black: #000000;
   --blur: #89888b;
   --border: #3a3841;
+  --bg-pending: #fcd8c9;
+  --bg-complete: #c5f1dc;
+  --text-pending: #ef5a4a;
+  --text-complete: #48ce74;
 }
 
 header {
@@ -34,4 +38,57 @@ body {
 
 a {
   text-decoration: none;
+}
+
+td {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.status {
+  border-radius: 4px;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: var(--text-pending);
+  background: var(--bg-pending);
+}
+
+.status.complete {
+  color: var(--text-complete);
+  background: var(--bg-complete);
+}
+
+.course-status {
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-top: 2px;
+  width: fit-content;
+}
+
+.course-status.expertise {
+  background: var(--bg-pending);
+}
+
+.course-status.training {
+  background: var(--bg-complete);
+}
+
+.course-status-circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.course-status-circle.expertise {
+  background: var(--text-pending);
+}
+
+.course-status-circle.training {
+  background: var(--text-complete);
 }

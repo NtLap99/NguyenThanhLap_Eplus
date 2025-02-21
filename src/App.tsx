@@ -1,13 +1,20 @@
-import './styles/global.css';
-import { Box } from './components/box';
-import { Body } from './components/layout/body';
-import { Header } from './components/layout/header';
+import { Box } from "./components/box";
+import AddButton from "./components/addButton";
+import Header from "./components/layout/header";
+import Training from "./page/Training";
+import "./styles/global.css";
 
 function App() {
+  const headerLeftContent = (
+    <>
+      <AddButton />
+      <span className="header-title">Danh sách khóa đào tạo</span>
+    </>
+  );
   return (
     <Box>
-      {/* <Header /> */}
-      <Body />
+      <Header headerLeftContent={headerLeftContent} />
+      <Training />
     </Box>
   );
 }

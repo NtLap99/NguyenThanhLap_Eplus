@@ -1,0 +1,18 @@
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #f5222d !important;
+    background-color: #f5222d;
+    color: white;
+    cursor: pointer;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
+    /* transition: background 0.2s ease-in-out; */
+  }
+  
+  /* .add-button:hover {
+    background-color: #d32029;
+  } */
+  
