@@ -6,26 +6,25 @@ import {
   BookOutlined,
   BellOutlined,
   MessageOutlined,
+  SortAscendingOutlined,
 } from "@ant-design/icons";
 import "./styles.css";
+import { Box } from "../../box";
 
 interface HeaderProps {
-  headerLeftContent: React.ReactNode; // Cho phép truyền JSX từ bên ngoài
+  headerLeftContent: React.ReactNode;
 }
 
 const Header: React.FC<HeaderProps> = ({ headerLeftContent }) => {
   return (
-    <div className="header-container">
-      {/* Phần trái: nhận nội dung từ props */}
-      <div className="header-left">{headerLeftContent}</div>
-
-      {/* Phần phải: Nhóm icon và avatar */}
-      <div className="header-right">
+    <Box className="header-container">
+      <Box className="header-left">{headerLeftContent}</Box>
+      <Box className="header-right">
         <Input
           className="search-input"
           placeholder="Tìm kiếm"
-          prefix={<SearchOutlined />}
-          suffix={<FilterOutlined />}
+          prefix={<SearchOutlined className="header-icon"/>}
+          suffix={<SortAscendingOutlined className="header-icon"/>}
         />
         <Tooltip title="Lọc">
           <FilterOutlined className="header-icon" />
@@ -40,8 +39,8 @@ const Header: React.FC<HeaderProps> = ({ headerLeftContent }) => {
           <BellOutlined className="header-icon" />
         </Tooltip>
         <Avatar className="user-avatar">L</Avatar>
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };
 

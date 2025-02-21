@@ -19,7 +19,8 @@ header {
   z-index: 99;
 }
 
-footer {}
+footer {
+}
 
 html,
 body {
@@ -45,50 +46,67 @@ td {
   padding-bottom: 12px !important;
 }
 
-.status {
-  border-radius: 4px;
-  padding: 6px;
+.ant-input {
+  padding: 12px 11px !important;
+  border-radius: 4px !important;
+}
+.ant-picker {
+  padding: 12px 11px !important;
+  border-radius: 4px !important;
+}
+.ant-select {
+  height: 48px !important;
+  border-radius: 4px !important;
+}
+.ant-input-affix-wrapper .ant-input {
+  padding: 8px 0px !important;
+  border-radius: 4px !important;
+}
+
+.ant-tabs .ant-tabs-tab-btn:hover {
+  color: #e35245 !important;
+}
+.ant-tabs .ant-tabs-tab:hover {
+  color: #e35245 !important;
+}
+.ant-tabs .ant-tabs-tab:active {
+  color: #e35245 !important;
+}
+.ant-tabs .ant-tabs-tab:focus {
+  color: #e35245 !important;
+}
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #e35245 !important;
+}
+.ant-tabs .ant-tabs-ink-bar  {
+  background-color: #e35245 !important;
+}
+.ant-select .ant-select-selection-wrap {
+  padding: 8px 0px !important;
+}
+.header-title {
+  margin-left: 16px;
+}
+.ant-table-container {
+  border-left: 16px solid #EBEFF6 ;
+  border-top: 16px solid #EBEFF6 ;
+}
+.ant-tabs-nav-list{
+  padding-left: 16px;
+}
+.ant-collapse .ant-collapse-item .ant-collapse-header {
+  padding: 0px 0px 16px 0px !important;
+  color: #e35245 !important;
   font-weight: bold;
 }
-
-.status.pending {
-  color: var(--text-pending);
-  background: var(--bg-pending);
+.ant-collapse .ant-collapse-content .ant-collapse-content-box {
+  padding: 0px !important;
 }
-
-.status.complete {
-  color: var(--text-complete);
-  background: var(--bg-complete);
+.ant-modal-header {
+  padding-bottom: 16px !important;
+  border-bottom: 1px solid #ddd !important;
 }
-
-.course-status {
-  display: flex;
-  align-items: center;
-  padding: 2px 8px;
-  border-radius: 4px;
-  margin-top: 2px;
-  width: fit-content;
-}
-
-.course-status.expertise {
-  background: var(--bg-pending);
-}
-
-.course-status.training {
-  background: var(--bg-complete);
-}
-
-.course-status-circle {
-  width: 5px;
-  height: 5px;
-  border-radius: 100%;
-  margin-right: 8px;
-}
-
-.course-status-circle.expertise {
-  background: var(--text-pending);
-}
-
-.course-status-circle.training {
-  background: var(--text-complete);
+.ant-modal-footer {
+  padding-top: 16px !important;
+  border-top: 1px solid #ddd !important;
 }

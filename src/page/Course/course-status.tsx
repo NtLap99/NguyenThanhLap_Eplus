@@ -1,13 +1,13 @@
 import React from 'react';
-import { Box } from '../../box';
-import { EType } from '../../../common/interface';
+import { Box } from '../../components/box';
+import { EType } from '../../common/interface';
 
 interface ICourseStatusProps {
   name: string;
   type?: string;
 }
 
-export const CourseStatus: React.FC<ICourseStatusProps> = ({ name, type }) => {
+const CourseStatus: React.FC<ICourseStatusProps> = ({ name, type }) => {
   return (
     <Box>
       <Box>{name}</Box>
@@ -22,3 +22,4 @@ export const CourseStatus: React.FC<ICourseStatusProps> = ({ name, type }) => {
     </Box>
   )
 }
+export default CourseStatus;

@@ -1,18 +1,29 @@
-import React from "react";
-import { Dropdown, Menu, Typography } from "antd";
+import { Dropdown, Typography } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
-import './styles.css'
+import { useNavigate } from "react-router-dom";
+import type { MenuProps } from "antd";
+import "./styles.css";
 
 const AddButton: React.FC = () => {
-  const menu = (
-    <Menu>
-      <Menu.Item key="1">Đào tạo</Menu.Item>
-      <Menu.Item key="2">Tiêu chí đánh giá</Menu.Item>
-    </Menu>
-  );
+  const navigate = useNavigate();
+
+  const handleMenuClick: MenuProps["onClick"] = (e) => {
+    if (e.key) {
+      navigate(`/${e.key}`);
+    }
+  };
+
+  const menuItems: MenuProps["items"] = [
+    { key: "newCourse", label: "Đào tạo" },
+    { key: "criteria", label: "Tiêu chí đánh giá" },
+  ];
 
   return (
-    <Dropdown overlay={menu} trigger={["click"]} placement="bottomLeft">
+    <Dropdown
+      menu={{ items: menuItems, onClick: handleMenuClick }}
+      trigger={["click"]}
+      placement="bottomLeft"
+    >
       <Typography.Link className="add-button">
         <PlusOutlined className="plus-icon" />
       </Typography.Link>

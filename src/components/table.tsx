@@ -1,4 +1,4 @@
-import type { TableColumnsType, TableProps } from 'antd';
+import type { TableProps } from 'antd';
 import { Table as _Table } from 'antd';
 import React from 'react';
 import { ICourse } from '../common/interface';
@@ -23,5 +23,5 @@ export const Table: React.FC<ITableProps> = ({ data, columns }) => {
   }, [data])
 
   // eslint-disable-next-line react/jsx-pascal-case
-  return <_Table scroll={{ x: 1500, y: 700 }} pagination={{ position: ['topLeft'] }} rowSelection={rowSelection} columns={columns} dataSource={dataSource} />;
+  return <_Table scroll={{ x: 1500, y: 700 }} pagination={false} rowSelection={rowSelection} columns={columns} dataSource={dataSource} />;
 };

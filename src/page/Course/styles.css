@@ -1,0 +1,91 @@
+.status {
+  border-radius: 4px;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: var(--text-pending);
+  background: var(--bg-pending);
+}
+
+.status.complete {
+  color: var(--text-complete);
+  background: var(--bg-complete);
+}
+
+.course-status {
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-top: 2px;
+  width: fit-content;
+}
+
+.course-status.expertise {
+  background: var(--bg-pending);
+}
+
+.course-status.training {
+  background: var(--bg-complete);
+}
+
+.course-status-circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.course-status-circle.expertise {
+  background: var(--text-pending);
+}
+
+.course-status-circle.training {
+  background: var(--text-complete);
+}
+.main-tab {
+  padding: 16px;
+}
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  background: #fff;
+}
+
+.record-info {
+  font-size: 14px;
+  color: #666;
+}
+.page-selector .ant-select-selector {
+  border: none !important;
+}
+.page-selector {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-left: 16px;
+}
+.page-change {
+  margin-left: 16px;
+}
+.page-dropdown {
+  margin: 0 4px;
+  width: 50px;
+  text-align: center;
+  height: 32px !important;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+}
+.style-button {
+  color: #666;
+}
+.main-form {
+  padding-top: 16px;
+}
