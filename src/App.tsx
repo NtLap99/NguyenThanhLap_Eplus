@@ -4,14 +4,14 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
-import { Box } from "./components/box";
-import AddButton from "./components/addButton";
+import AddButton from "./components/add-button";
 import Header from "./components/layout/header";
-import Course from "./page/Course";
-import NewCourse from "./page/NewCourse";
+import Course from "./page/course";
+import NewCourse from "./page/new-course";
 import "./styles/global.css";
 import { PlusOutlined } from "@ant-design/icons";
 import { Button } from "antd";
+import Box from "./components/box";
 
 function App() {
   return (

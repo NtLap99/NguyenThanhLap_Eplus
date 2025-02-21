@@ -1,10 +1,9 @@
-import React, { useState } from "react";
 import { Button, Tabs } from "antd";
-import GeneralInfoForm from "./components/GeneralInfoForm";
-import StudentInfoForm from "./components/StudentInfoForm";
-import { Box } from "../../components/box";
+import React, { useState } from "react";
+import Box from "../../components/box";
+import GeneralInfoForm from "./general-info-form";
+import StudentInfoForm from "./student-info-form";
 import "./styles.css";
-const { TabPane } = Tabs;
 interface StudentCondition {
   employeeCode: string;
   employee: string;
@@ -46,7 +45,7 @@ const NewCourse: React.FC = () => {
   };
 
   return (
-    <Box className="main-tab">
+    <Box className="main-new-course">
       <Tabs
         defaultActiveKey="1"
         items={[

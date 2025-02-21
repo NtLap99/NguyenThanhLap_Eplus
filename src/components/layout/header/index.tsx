@@ -9,7 +9,7 @@ import {
   SortAscendingOutlined,
 } from "@ant-design/icons";
 import "./styles.css";
-import { Box } from "../../box";
+import Box from "../../box";
 
 interface HeaderProps {
   headerLeftContent: React.ReactNode;

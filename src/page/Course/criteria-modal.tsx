@@ -10,6 +10,7 @@ import {
   Row,
   Col,
 } from "antd";
+import Box from "../../components/box";
 
 const { Option } = Select;
 
@@ -80,14 +81,24 @@ const CriterionModal: React.FC<CriterionModalProps> = ({
       ]}
       width={600}
     >
-      <Form form={form} layout="vertical" initialValues={{ isType: false }} className="main-form">
+      <Form
+        form={form}
+        layout="vertical"
+        initialValues={{ isType: false }}
+        className="main-form"
+      >
         <Row gutter={16}>
           <Col span={8}>
             <Form.Item<FormValues>
               name="code"
               rules={[{ required: true, message: "Vui lòng nhập mã tiêu chí" }]}
             >
-              <Input placeholder="Mã tiêu chí *" />
+              <Box>
+                <label className="custom-label">
+                  {"Mã tiêu chí"} <span className="required">*</span>
+                </label>
+                <Input />
+              </Box>
             </Form.Item>
           </Col>
           <Col span={16}>
@@ -101,10 +112,7 @@ const CriterionModal: React.FC<CriterionModalProps> = ({
             </Form.Item>
           </Col>
         </Row>
-        <Form.Item<FormValues>
-          name="isType"
-          valuePropName="checked"
-        >
+        <Form.Item<FormValues> name="isType" valuePropName="checked">
           <Switch /> Là loại tiêu chí
         </Form.Item>
 
@@ -118,12 +126,13 @@ const CriterionModal: React.FC<CriterionModalProps> = ({
           </Select>
         </Form.Item>
 
-        <Form.Item<FormValues> name="description">
-          <Input placeholder="Mô tả" />
+        <Form.Item<FormValues> name="description" className="description">
+          <label className="custom-label"> {"Mô tả"}</label>
+          <Input />
         </Form.Item>
 
         <Collapse
-        ghost
+          ghost
           defaultActiveKey={["1"]}
           items={[
             {

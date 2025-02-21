@@ -1,15 +1,18 @@
-import { Dropdown, Typography } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
-import { useNavigate } from "react-router-dom";
 import type { MenuProps } from "antd";
+import { Dropdown, Typography } from "antd";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./styles.css";
 
 const AddButton: React.FC = () => {
   const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleMenuClick: MenuProps["onClick"] = (e) => {
     if (e.key) {
       navigate(`/${e.key}`);
+      setIsOpen(false);
     }
   };
 
@@ -23,8 +26,11 @@ const AddButton: React.FC = () => {
       menu={{ items: menuItems, onClick: handleMenuClick }}
       trigger={["click"]}
       placement="bottomLeft"
+      onOpenChange={(open) => setIsOpen(open)}
     >
-      <Typography.Link className="add-button">
+      <Typography.Link
+        className={`${isOpen ? "open-add-button " : "add-button"}`}
+      >
         <PlusOutlined className="plus-icon" />
       </Typography.Link>
     </Dropdown>

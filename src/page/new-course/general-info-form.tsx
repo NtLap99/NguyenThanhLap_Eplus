@@ -1,9 +1,13 @@
 import React from "react";
 import { Form, Input, DatePicker, Select, Row, Col } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
+import { QuestionCircleOutlined, SearchOutlined } from "@ant-design/icons";
 import dayjs from "dayjs";
+import Box from "../../components/box";
 
 const { Option } = Select;
+interface FormValues {
+  code: string;
+}
 
 interface GeneralInfoProps {
   data: {
@@ -25,15 +29,24 @@ interface GeneralInfoProps {
 
 const GeneralInfoForm: React.FC<GeneralInfoProps> = ({ data, onChange }) => {
   return (
-    <Form layout="vertical">
+    <Form layout="vertical" className="main-general-info">
       <Row gutter={16}>
         <Col span={4}>
-          <Form.Item>
-            <Input
-              value={data.code}
-              onChange={(e) => onChange("code", e.target.value)}
-              placeholder="Mã khoá đào tạo"
-            />
+          <Form.Item<FormValues>
+            name="code"
+            rules={[{ required: true, message: "Vui lòng nhập mã tiêu chí" }]}
+          >
+            <Box>
+              <label className="custom-label">
+                Mã <span className="required">*</span>
+                <QuestionCircleOutlined className="icon" />
+              </label>
+              <Input
+                value={data.code}
+                onChange={(e) => onChange("code", e.target.value)}
+                 placeholder="Mã khoá đào tạo"
+              />
+            </Box>
           </Form.Item>
         </Col>
         <Col span={8}>
@@ -79,6 +92,9 @@ const GeneralInfoForm: React.FC<GeneralInfoProps> = ({ data, onChange }) => {
       <Row gutter={16}>
         <Col span={6}>
           <Form.Item>
+            <label className="custom-label">
+              Hình thức đào tạo <span className="required">*</span>
+            </label>
             <Select
               value={data.trainingType}
               onChange={(value) => onChange("trainingType", value)}
@@ -111,6 +127,9 @@ const GeneralInfoForm: React.FC<GeneralInfoProps> = ({ data, onChange }) => {
       <Row gutter={16}>
         <Col span={6}>
           <Form.Item>
+            <label className="custom-label">
+              <QuestionCircleOutlined className="icon" />
+            </label>
             <Input
               value={data.commitmentTime}
               onChange={(e) => onChange("commitmentTime", e.target.value)}
@@ -144,7 +163,9 @@ const GeneralInfoForm: React.FC<GeneralInfoProps> = ({ data, onChange }) => {
           <Form.Item>
             <Input
               placeholder="Người quản lý"
-              suffix={<SearchOutlined style={{color:"#ddd", fontSize: 21}}/>}
+              suffix={
+                <SearchOutlined style={{ color: "#ddd", fontSize: 21 }} />
+              }
               value={data.manager}
               onChange={(e) => onChange("manager", e.target.value)}
             />
@@ -156,7 +177,9 @@ const GeneralInfoForm: React.FC<GeneralInfoProps> = ({ data, onChange }) => {
           <Form.Item>
             <Input
               placeholder="Người theo dõi"
-              suffix={<SearchOutlined style={{color:"#ddd", fontSize: 21}}/>}
+              suffix={
+                <SearchOutlined style={{ color: "#ddd", fontSize: 21 }} />
+              }
               value={data.follower}
               onChange={(e) => onChange("follower", e.target.value)}
             />
@@ -164,14 +187,17 @@ const GeneralInfoForm: React.FC<GeneralInfoProps> = ({ data, onChange }) => {
         </Col>
       </Row>
       <Row gutter={16}>
-      <Col span={12}>
-        <Form.Item>
-          <Input
-            placeholder="Nội dung đào tạo"
-            value={data.trainingContent}
-            onChange={(e) => onChange("trainingContent", e.target.value)}
-          />
-        </Form.Item>
+        <Col span={12}>
+          <Form.Item>
+            <Box>
+              <label className="custom-label">Nội dung đào tạo</label>
+              <Input
+                placeholder="Nội dung đào tạo"
+                value={data.trainingContent}
+                onChange={(e) => onChange("trainingContent", e.target.value)}
+              />
+            </Box>
+          </Form.Item>
         </Col>
       </Row>
     </Form>

@@ -4,9 +4,10 @@ interface IBoxProps {
   children?: React.ReactNode;
 }
 
-export const Box: React.FC<IBoxProps & HTMLAttributes<HTMLDivElement>> = ({
+const Box: React.FC<IBoxProps & HTMLAttributes<HTMLDivElement>> = ({
   children,
   ...boxProps
 }) => {
   return <div {...boxProps}>{children}</div>;
 };
+export default Box;

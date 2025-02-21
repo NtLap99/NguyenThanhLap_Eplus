@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '../../components/box';
+import Box from '../../components/box';
 import { EType } from '../../common/interface';
 
 interface ICourseStatusProps {

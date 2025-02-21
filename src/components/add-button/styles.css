@@ -1,0 +1,28 @@
+.add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e35245 !important;
+  background-color: #e35245;
+  color: white;
+  cursor: pointer;
+}
+.open-add-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e35245 !important;
+  border-radius: 4px;
+  background: #e35245 !important;
+  color: white;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  transition: background 0.2s ease-in-out;
+}
+.open-add-button .plus-icon {
+  color: white;
+}

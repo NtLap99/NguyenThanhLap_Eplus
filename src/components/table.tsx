@@ -10,7 +10,7 @@ interface ITableProps {
   columns: any;
 }
 
-export const Table: React.FC<ITableProps> = ({ data, columns }) => {
+const Table: React.FC<ITableProps> = ({ data, columns }) => {
   const rowSelection: TableRowSelection = {
     type: 'checkbox',
   };
@@ -25,3 +25,4 @@ export const Table: React.FC<ITableProps> = ({ data, columns }) => {
   // eslint-disable-next-line react/jsx-pascal-case
   return <_Table scroll={{ x: 1500, y: 700 }} pagination={false} rowSelection={rowSelection} columns={columns} dataSource={dataSource} />;
 };
+export default Table;

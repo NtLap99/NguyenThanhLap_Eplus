@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Input, Select, Button, Row, Col } from "antd";
 import { PlusOutlined, SearchOutlined, CloseOutlined } from "@ant-design/icons";
-import { Box } from "../../../components/box";
+import Box from "../../components/box";
 
 const { Option } = Select;
 
@@ -68,7 +68,7 @@ const StudentInfoForm: React.FC<StudentInfoFormProps> = ({
     updatedConditions[index][field] = value;
     onChange({ ...studentData, conditions: updatedConditions });
   };
-  
+
   return (
     <Form layout="vertical">
       <Row gutter={16}>
@@ -175,10 +175,11 @@ const StudentInfoForm: React.FC<StudentInfoFormProps> = ({
                 type="text"
                 icon={
                   <CloseOutlined
-                    style={{ color: "#aaa", fontSize: 18, marginTop: 16 }}
+                    style={{ color: "#aaa", fontSize: 18 }}
                   />
                 }
                 onClick={() => removeCondition(index)}
+                className="button-remove"
               />
             </Form.Item>
           </Col>

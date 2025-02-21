@@ -52,7 +52,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 16px;
+  padding: 0px 16px;
   background: #fff;
 }
 
@@ -88,4 +88,13 @@
 }
 .main-form {
   padding-top: 16px;
+}
+
+.main-course .ant-table-container  {
+  max-height: calc(100vh - 165px);
+  overflow: auto; 
+}
+
+.description {
+  padding-top: 8px;
 }
