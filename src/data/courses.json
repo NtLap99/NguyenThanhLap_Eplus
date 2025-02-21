@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "name": "Username 1",
+      "avatar": ""
+    },
+    "name": "Test",
+    "method": "Bắt buộc",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 1",
+      "avatar": ""
+    },
+    "fromDate": "11/08/2023",
+    "toDate": "11/08/2023",
+    "status": "Đang thực hiện",
+    "studentCount": 3,
+    "fine": 0,
+    "createdDate": "10/08/2023"
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 2,
+      "name": "Username 2",
+      "avatar": ""
+    },
+    "name": "HỆ THỐNG ĐẶT HÀNG ONLINE",
+    "method": "Đăng ký",
+    "lecturer": {
+      "id": 1,
+      "name": "Giảng viên 1",
+      "avatar": ""
+    },
+    "fromDate": "11/08/2023",
+    "toDate": "11/08/2023",
+    "status": "Hoàn thành",
+    "studentCount": 3,
+    "fine": 0,
+    "createdDate": "10/08/2023"
+  }
+]

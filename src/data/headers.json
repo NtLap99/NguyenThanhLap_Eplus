@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Người tạo",
+    "dataIndex": ["user", "name"]
+  },
+  {
+    "id": 2,
+    "title": "Tên khoá đào tạo",
+    "dataIndex": "name"
+  },
+  {
+    "id": 3,
+    "title": "Hình thức đào tạo",
+    "dataIndex": "method"
+  },
+  {
+    "id": 4,
+    "title": "Giảng viên",
+    "dataIndex": ["user", "name"]
+  },
+  {
+    "id": 5,
+    "title": "Từ ngày",
+    "dataIndex": "fromDate"
+  },
+  {
+    "id": 6,
+    "title": "Đến ngày",
+    "dataIndex": "toDate"
+  },
+  {
+    "id": 7,
+    "title": "Trạng thái",
+    "dataIndex": "status"
+  },
+  {
+    "id": 8,
+    "title": "Số học viên",
+    "dataIndex": "studentCount"
+  },
+  {
+    "id": 9,
+    "title": "Tiền phạt nếu vi phạm cam kết",
+    "dataIndex": "fine"
+  },
+  {
+    "id": 10,
+    "title": "Ngày tạo",
+    "dataIndex": "createdDate"
+  }
+]
