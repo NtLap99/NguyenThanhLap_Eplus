@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import AddButton from "./components/add-button";
 import Header from "./components/layout/header";
-import Course from "./page/course";
+import Course from "./page/list-course";
 import NewCourse from "./page/new-course";
 import "./styles/global.css";
 import { PlusOutlined } from "@ant-design/icons";
